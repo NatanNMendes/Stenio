@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda Seu Veículo | Stenio - Veículos</title>
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendaSeuVeiculo.css">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #000; border-bottom: 5px solid #fff; height: 105px;">
+            <div class="container-fluid"  id="nav">
+              <a class="navbar-brand" href="index.html">
+                <img src="./img/Sem título.png" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html" id="nav-item">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Estoque.html" id="nav-item">ESTOQUE</a>
+                    <!-- alterar link de direcionamento. -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="empresa.html" id="nav-item">EMPRESA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="financiamento.html" id="nav-item">FINANCIAMENTO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="vendaSeuVeiculo.html" id="nav-item">VENDA SEU VEÍCULO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html" id="nav-item">CONTATO</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav" id="nav2">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#footer12"><i class="fa-solid fa-phone"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=557599190-0001&text=Ol%C3%A1,%20venho%20atrav%C3%A9s%20do%20site%20e%20preciso%20de%20informa%C3%A7%C3%B5es."><i class="fa-brands fa-whatsapp"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://instagram.com/stenioveiculos?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://pt-br.facebook.com/people/Stenio-Veiculos/100054664110979/?ref=page_internal"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <section>
+        <div id="formularios">
+        <div id="texto">
+            <h1>Deseja vender veículo?</h1>
+            <p>Preencha o formulário abaixo ou entre em contato conosco pelo telefone -  (75)3623-3332</p>
+        </div>
+        <div id="formulario">
+            <h3>Dados Pessoais</h3>
+            <div class="container-fluid col-md-6"><!--Caixa do formulário-->
+                <form class="row g-1" action="https://formsubmit.co/proferikmarques@gmail.com" method="POST"><!--inicio form-->
+                <div class="col-md-12">
+                    <label class="form-label">
+                    Nome completo:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite seu nome" name="nome" required>
+                </div>    
+                <div class="col-md-12">
+                    <label class="form-label">
+                    E-mail:
+                    </label>
+                    <input type="email" class="form-control" placeholder="Digite seu e-mail" name="email" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="celular" class="form-label" id="campos">
+                      CELULAR:
+                    </label>
+                    <input type="text" class="form-control" onkeypress="$(this).mask('(00) 9 0000-0000')" placeholder="Digite seu celular" required>
+                  </div>
+                <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      CEP:
+                    </label>
+                    <input type="text" name="cep" id="cep" onblur="pesquisacep(this.value);" class="form-control cep" placeholder="Digite seu CEP" required>
+                  </div>
+                <div class="col-md-12">
+                    <label class="form-label">
+                    Rua:
+                    </label>
+                    <input type="text" name="rua" id="rua" class="form-control" placeholder="Sua rua"
+                    readonly disabled required>
+                </div>
+                <div class="col-md-12">
+                    <label class="form-label">
+                    Bairro:
+                    </label>
+                    <input type="text" name="bairro" id="bairro" class="form-control" placeholder="Seu bairro" readonly disabled required>
+                </div>
+        <div>
+            <div class="form-check">
+                <p>ACEITO SER CONTATADO PELO WHATSAPP</p>
+                <input class="form-check-input" type="radio" name="WHATSAPP" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Sim
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="WHATSAPP" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Não
+                </label>
+            </div>
+        </div>
+                    
+        <div>
+            <div class="form-check">
+                <p>DESEJO RECEBER OFERTAS E NOVIDADES POR E-MAIL</p>
+                <input class="form-check-input" type="radio" name="E-MAIL" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                     Sim
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="E-MAIL" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Não
+                </label>
+            </div>
+        </div>
+                
+
+                <h3>Dados do veículo</h3>
+                <form class="row g-1" action="https://formsubmit.co/proferikmarques@gmail.com" method="POST"><!--inicio form-->
+                    <div class="col-md-12">
+                        <label class="form-label">
+                            MARCA:
+                        </label>
+                        <input type="text" class="form-control" placeholder="Digite a marca do carro" name="marca" required>
+                    </div>  
+                    <div class="col-md-12">
+                        <label class="form-label">
+                            Modelo:
+                        </label>
+                        <input type="text" class="form-control" placeholder="Digite o modelo do carro" name="modelo" required>
+                    </div> 
+                    <div class="col-md-12">
+                        <label class="form-label">
+                            Versão:
+                        </label>
+                        <input type="text" class="form-control" placeholder="Digite a versão do carro" name="versão" required>
+                    </div> 
+                    <div class="col-md-12">
+                        <label class="form-label">
+                            Cor:
+                        </label>
+                        <input type="text" class="form-control" placeholder="Digite a cor do carro" name="cor" required>
+                    </div> 
+                    <div class="col-md-12">
+                        <label class="form-label">
+                            KM:
+                        </label>
+                        <input type="text" class="form-control" placeholder="Digite os KMs rodados do carro" name="KM" required>
+                    </div> 
+                    <div class="col-md-12">
+                        <label class="form-label">
+                            Ano/Modelo:
+                        </label>
+                        <input type="text" class="form-control" placeholder="Digite o ano/modelo do carro" name="ano" required>
+                    </div>
+                    <div>
+                        <div class="form-check">
+                            <p>VOCÊ É O PRIMEIRO PROPRIETÁRIO DO VEÍCULO?</p>
+                            <input class="form-check-input" type="radio" name="PROPRIETÁRIO" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            Sim
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="PROPRIETÁRIO" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                            Não
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="form-check">
+                            <p>O ESTOFAMENTO, TAPETE OU TETO POSSUEM MANCHA?</p>
+                            <input class="form-check-input" type="radio" name="ESTOFAMENTO" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Sim
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ESTOFAMENTO" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Não
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form-check">
+                            <p>O SEU VEÍCULO POSSUI SEGURO?</p>
+                            <input class="form-check-input" type="radio" name="SEGURO" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Sim
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SEGURO" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Não
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="form-check">
+                            <p>O VEÍCULO FOI ALGUMA VEZ RECUPERADO DE ROUBO?</p>
+                            <input class="form-check-input" type="radio" name="ROUBO" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Sim
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ROUBO" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Não
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <label class="form-label">CONTE PARA NÓS UM POUCO MAIS SOBRE SEU CARRO, FAÇA SUA PROPAGANDA!</label>
+                        <textarea class="form-control" rows="7" name="faleconosco" placeholder="Exemplo: comprei meu carro há 2 anos, fiz todas as revisões, os pneus estão bons. Ele está, agora, com 36,000Km rodados. Uma vez esbarrei o para-choque na minha garagem mas a pintura já está perfeita!"></textarea>
+                    </div>
+
+                <div class="col-md-12 text-center align-middle">
+                    <button id="button" type="submit" class="btn bt-enviar">Enviar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+
+    <section id="footer">
+        <footer>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12" id="footer1">
+                <div class="container-fluid">
+                  <div class="row align-self-center">
+                    <div class="col-md-6 text-center align-self-center" id="footer11">
+                      <img src="./img/Sem título.png" class="logo_footer">
+                    </div>
+                    <div class="col-md-6 text-center align-self-center" id="footer12">
+                      
+                      <h4><i class="fa-solid fa-phone" id="footericone"></i>(75) 3623-3332</h4>
+                      <h4><i class="fa-brands fa-whatsapp" id="footericone"></i>(75) 99190-0001</h4>
+                      <h4><i class="fa-solid fa-location-dot" id="footericone"></i>Av. Maria Quitéria<br>3240 São João<br>Feira de Santana - BA</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </footer>
+      </section>
+      
+    <section id="footer2">
+        <footer>
+          <div class="container-fluid">
+            <div class="row  justify-content-center">
+              <div class="col-md-12 text-center align-self-center">
+                <h3 class="main-title" id="footertext">Powered by</h3>
+              </div>
+            </div>
+            <div class="row  justify-content-center">
+              <div class="col-md-12">
+                <div class="row " id="footer02">
+                  <div class="col-md-6 text-center align-self-center" id="">
+                    <img src="./img/download.png" class="logo_footer21">
+                  </div>
+                  <div class="col-md-6 text-center align-self-center">
+                    <img src="./img/webmotors-logo-1-1.png" class="logo_footer22">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </section>
+    <script src="_js/cep3.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="_js/cep.js"></script>
+
+</body>
+</html>
+
+<script language="javascript">
+    $(document).ready(function(){
+      $('input[name="cep"]').mask('00000-000');
+      $('input[name="number"]').mask('(00) 0000-0000');
+    });
+  </script>

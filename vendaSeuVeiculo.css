@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#body {
+    background: rgb(231, 234, 236);
+}
+
+#button{
+    width: 165px;
+    height: 57px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1rem;;
+    background: rgb(215, 14, 20);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border: none;
+
+    color: white;
+}
+
+#formularios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#formularios #texto {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    align-items: center;
+}
+
+#formulario h3{
+    margin-right: 33rem;
+}
+
+#footer{
+    background-color: #000;
+    padding: 0px 50px;
+    border-top: red;
+}
+#footer1{
+    border-top: 3px solid #fff;
+}
+#footer11{
+    padding: 20px 0px;
+}
+#footer12{
+    padding: 20px 0px;
+}
+#footer12 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+#footericone{
+    padding-right: 10px;
+}
+
+#footer2{
+    background-color: #fff;
+}
+#footer02{
+    padding: 0px 400px;
+}
+#footertext{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.logo_footer21{
+    height: 150px;
+    margin: 20px 0px;
+}
+.logo_footer22{
+    height: 80px;
+    margin: 20px 0px;
+}
+

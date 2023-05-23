@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#body {
+    background: rgb(231, 234, 236);
+}
+
+#container {
+    display: flex;
+    max-width: 100%;
+    padding: 1% 5%;
+    
+}
+
+#container #texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+
+    max-width: 90%;
+}
+
+#container #texto #link{
+    text-decoration: none;
+}
+
+#conteudo {
+    display: flex;
+    margin: 1% 5%;
+
+}
+
+#conteudo #cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+
+    align-items: center;
+}
+
+#conteudo #cards #card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 21.498rem;
+    height: 32.313rem;
+
+    border-radius: 1rem;
+    background-color: white;
+
+    padding: 1rem;
+}
+
+#conteudo #cards #card #image {
+    width: 19.241rem;
+    height: 13.5rem;
+}
+
+#conteudo #cards #card #detalhes {
+    list-style: none;
+}
+
+#conteudo #cards #card #button {
+    width: 165px;
+    height: 57px;
+
+    background: rgb(215, 14, 20);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+    cursor: pointer;
+
+    color: white;
+}
+#footer{
+    background-color: #000;
+    padding: 0px 50px;
+    border-top: red;
+}
+#footer1{
+    border-top: 3px solid #fff;
+}
+#footer11{
+    padding: 20px 0px;
+}
+#footer12{
+    padding: 20px 0px;
+}
+#footer12 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+#footericone{
+    padding-right: 10px;
+}
+
+#footer2{
+    background-color: #fff;
+}
+#footer02{
+    padding: 0px 400px;
+}
+#footertext{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.logo_footer21{
+    height: 150px;
+    margin: 20px 0px;
+}
+.logo_footer22{
+    height: 80px;
+    margin: 20px 0px;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#body {
+    box-sizing: border-box;
+    background: black;;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre #texto {
+    display: flex;
+    color: white;
+    padding: 2% 5%;
+}
+
+#sobre #paragrafo {
+    display: flex;
+    color: white;
+    padding: 2% 5%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+#sobre #paragrafo #texto {
+    color: white;
+    padding: 0 20%;
+    font-size: 24px;
+}
+
+
+#sobre #formularios {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre #formularios #formulario {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+
+#sobre #formularios #formulario #button {
+    width: 165px;
+    height: 57px;
+
+    margin-top: 1rem;;
+
+    background: rgb(215, 14, 20);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+    cursor: pointer;
+    border: none;
+
+    color: white;
+}
+#contato{
+    background-color: #000;
+}
+#texto3{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#mapa{
+    padding: 100px 0px;
+    padding-right: 10px;
+}
+#maps{
+    border-radius: 20px;
+}
+#caixa{
+    padding: 30px 10px;
+}
+#comunicacao{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+#campos{
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+#button{
+    width: 165px;
+    height: 57px;
+
+    margin-top: 1rem;;
+
+    background: rgb(215, 14, 20);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+    cursor: pointer;
+    border: none;
+
+    color: white;
+}
+#footer{
+    background-color: #000;
+    padding: 0px 50px;
+    border-top: red;
+}
+#footer1{
+    border-top: 3px solid #fff;
+}
+#footer11{
+    padding: 20px 0px;
+}
+#footer12{
+    padding: 20px 0px;
+}
+#footer12 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+#footericone{
+    padding-right: 10px;
+}
+
+#footer2{
+    background-color: #fff;
+}
+#footer02{
+    padding: 0px 400px;
+}
+#footertext{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.logo_footer21{
+    height: 150px;
+    margin: 20px 0px;
+}
+.logo_footer22{
+    height: 80px;
+    margin: 20px 0px;
+}

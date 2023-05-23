@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+.logo{
+    width: 200px;
+    height: 50px;
+    margin: 2px ;
+}
+#nav{
+    margin: 0px 90px;
+}
+#nav li a{
+    color: #fff;
+    margin: 0px 10px;
+    font-family: 'Lato', sans-serif;
+}
+#nav li a:hover{
+    color: rgb(215, 14, 20);
+}
+#nav2{
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+#nav2 li a{
+    color: #fff;
+    font-size: 20px;
+}
+#nav2 li a:hover{
+    color: black;
+}
+#img{
+    margin-top: 100px;
+}
+/* #itens{
+    padding: 20px 0px;
+    background-color: #000;
+} */
+#blocos{
+    padding: 1% 5%;
+    background: #fff;
+    
+}
+.images1{
+    width: 100px;
+    height: 95px;
+}
+.images2{
+    width: 150px;
+    height: 95px;
+}
+.images3{
+    width: 100px;
+    height: 95px;
+}
+.images4{
+    width: 200px;
+    height: 95px;
+}
+.images5{
+    width: 150px;
+    height: 95px;
+}
+.images6{
+    width: 100px;
+    height: 95px;
+}
+#texto1{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 30px;
+    margin: 0px 550px;
+    padding-bottom: 20px;
+
+}

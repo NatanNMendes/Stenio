@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#body {
+    background: rgb(231, 234, 236);
+}
+
+#titulo {
+    display: flex;
+    max-width: 100%;
+    padding: 1% 5%;
+}
+
+#detalhes {
+    display: flex;
+    margin: 1% 5%;
+    flex-direction: column;
+}
+
+#detalhes #detalhe {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 5rem;
+    align-items: flex-start;
+}
+
+#detalhes #detalhe #itens {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.8rem;
+    align-items: flex-start;
+    background: white;
+    padding: 1rem;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+}
+
+#detalhes #detalhe #itens #item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+
+#detalhes #detalhe #itens #item #icon {
+    font-size: 35px;
+}
+
+#detalhes #detalhe #itens #item #texto {
+    display: flex;
+    flex-direction: column;
+}
+
+#detalhes #detalhe #sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#detalhes #detalhe #sobre #button {
+    height: 57px;
+
+    background: rgb(215, 14, 20);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+    cursor: pointer;
+
+    color: white;
+}
+#footer{
+    background-color: #000;
+    padding: 0px 50px;
+    border-top: red;
+}
+#footer1{
+    border-top: 3px solid #fff;
+}
+#footer11{
+    padding: 20px 0px;
+}
+#footer12{
+    padding: 20px 0px;
+}
+#footer12 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+#footericone{
+    padding-right: 10px;
+}
+
+#footer2{
+    background-color: #fff;
+}
+#footer02{
+    padding: 0px 400px;
+}
+#footertext{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.logo_footer21{
+    height: 150px;
+    margin: 20px 0px;
+}
+.logo_footer22{
+    height: 80px;
+    margin: 20px 0px;
+}

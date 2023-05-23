@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque | Stenio - Veículos</title>
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="estoque.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body id="body">
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #000; border-bottom: 5px solid #fff; height: 105px;">
+            <div class="container-fluid"  id="nav">
+              <a class="navbar-brand" href="index.html">
+                <img src="./img/Sem título.png" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html" id="nav-item">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Estoque.html" id="nav-item">ESTOQUE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="empresa.html" id="nav-item">EMPRESA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="financiamento.html" id="nav-item">FINANCIAMENTO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="vendaSeuVeiculo.html" id="nav-item">VENDA SEU VEÍCULO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html" id="nav-item">CONTATO</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav" id="nav2">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#footer12"><i class="fa-solid fa-phone"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=557599190-0001&text=Ol%C3%A1,%20venho%20atrav%C3%A9s%20do%20site%20e%20preciso%20de%20informa%C3%A7%C3%B5es."><i class="fa-brands fa-whatsapp"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://instagram.com/stenioveiculos?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://pt-br.facebook.com/people/Stenio-Veiculos/100054664110979/?ref=page_internal"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section id="container">
+            <div id="texto">
+                <h1>Nossos Veículos</h1>
+            </div>
+        </section>
+
+        <section id="conteudo">
+            <div id="cards">
+                <div id="card">
+                    <img id="image" src="carros/CHEVROLET-CAPTIVA.jpg" alt="CHEVROLET CAPTIVA">
+                    <h3>CHEVROLET CAPTIVA</h3>
+                    <p>ANO 2011</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>80.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Prata</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button" onClick="direcionar()">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/CHERY-FACE.jpg" alt="CHERY FACE">
+                    <h3>CHERY FACE</h3>
+                    <p>ANO 2012</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>52.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/MERCEDES-BENZ-A-250.jpg" alt="MERCEDES-BENZ A 250">
+                    <h3>MERCEDES-BENZ A 250</h3>
+                    <p>ANO 2015</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>86.500</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Branco</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Semi-automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros//RENAULT-DUSTER.jpg" alt="RENAULT DUSTER">
+                    <h3>RENAULT DUSTER</h3>
+                    <p>ANO 2013</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>82.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/PEUGEOT-208.jpg" alt="PEUGEOT 208">
+                    <h3>PEUGEOT 208</h3>
+                    <p>ANO 2017</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>57.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/HYUNDAI-HB20.jpg" alt="HYUNDAI HB20">
+                    <h3>HYUNDAI HB20</h3>
+                    <p>ANO 2015</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>75.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/FORD-FOCUS.jpg" alt="FORD FOCUS">
+                    <h3>FORD FOCUS</h3>
+                    <p>ANO 2013</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>70.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Cinza</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/MITSUBISHI-PAJERO-TR4.jpg" alt="MITSUBISHI PAJERO TR4">
+                    <h3>MITSUBISHI PAJERO TR4</h3>
+                    <p>ANO 2012</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>102.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Prata</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/TOYOTA-COROLLA.jpg" alt="TOYOTA COROLLA">
+                    <h3>TOYOTA COROLLA</h3>
+                    <p>ANO 2011</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>95.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Prata</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/JEEP-RENEGADE.jpg" alt="JEEP RENEGADE">
+                    <h3>JEEP RENEGADE</h3>
+                    <p>ANO 2020</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>48.600</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Branco</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/RENAULT-DUSTER-2012.jpg" alt="RENAULT DUSTER">
+                    <h3>RENAULT DUSTER</h3>
+                    <p>ANO 2012</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>95.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/CHEVROLET-S10.jpg" alt="CHEVROLET S10">
+                    <h3>CHEVROLET S10</h3>
+                    <p>ANO 2014</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>88.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Branco</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Automático</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/CITROËN-C3-PICASSO.jpg" alt="CITROËN C3 PICASSO">
+                    <h3>CITROËN C3 PICASSO</h3>
+                    <p>ANO 2012</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>80.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/FORD-KA.jpg" alt="FORD KA">
+                    <h3>FORD KA</h3>
+                    <p>ANO 2020</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>38.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Branco</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+
+                <div id="card">
+                    <img id="image" src="carros/FORD-FIESTA.jpg" alt="FORD FIESTA">
+                    <h3>FORD FIESTA</h3>
+                    <p>ANO 2014</p>
+                    <ol id="detalhes">
+                        <li id="detalhe">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span>KM</span>
+                            <strong>75.000</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-sharp fa-solid fa-swatchbook"></i>
+                            <span>cor</span>
+                            <strong>Preto</strong>
+                        </li>
+                        <li id="detalhe">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Câmbio</span>
+                            <strong>Manual</strong>
+                        </li>
+                    </ol>
+                    <button id="button">
+                        <span>Estou Interesado</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <footer>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12" id="footer1">
+                    <div class="container-fluid">
+                      <div class="row align-self-center">
+                        <div class="col-md-6 text-center align-self-center" id="footer11">
+                          <img src="./img/Sem título.png" class="logo_footer">
+                        </div>
+                        <div class="col-md-6 text-center align-self-center" id="footer12">
+                          
+                          <h4><i class="fa-solid fa-phone" id="footericone"></i>(75) 3623-3332</h4>
+                          <h4><i class="fa-brands fa-whatsapp" id="footericone"></i>(75) 99190-0001</h4>
+                          <h4><i class="fa-solid fa-location-dot" id="footericone"></i>Av. Maria Quitéria<br>3240 São João<br>Feira de Santana - BA</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </footer>
+          </section>
+        <section id="footer2">
+            <footer>
+              <div class="container-fluid">
+                <div class="row  justify-content-center">
+                    <div class="col-md-12 text-center align-self-center">
+                        <h3 class="main-title" id="footertext">Powered by</h3>
+                    </div>
+                </div>
+                <div class="row  justify-content-center">
+                  <div class="col-md-12">
+                    <div class="row " id="footer02">
+                        <div class="col-md-6 text-center align-self-center" id="">
+                            <img src="./img/download.png" class="logo_footer21">
+                        </div>
+                        <div class="col-md-6 text-center align-self-center">
+                            <img src="./img/webmotors-logo-1-1.png" class="logo_footer22">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+        </section>
+    </main>
+    <script src="estoque.js"></script>
+</body>
+</html>

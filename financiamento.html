@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Financiamento | Stenio - Veículos</title>
+    <link rel="stylesheet" type="text/css" href="Financiamento.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg" style="background-color: #000; border-bottom: 5px solid #fff; height: 105px;">
+        <div class="container-fluid"  id="nav">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Sem título.png" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav" id="nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html" id="nav-item">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Estoque.html" id="nav-item">ESTOQUE</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="empresa.html" id="nav-item">EMPRESA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="financiamento.html" id="nav-item">FINANCIAMENTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vendaSeuVeiculo.html" id="nav-item">VENDA SEU VEÍCULO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html" id="nav-item">CONTATO</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav" id="nav2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#footer12"><i class="fa-solid fa-phone"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://api.whatsapp.com/send?phone=557599190-0001&text=Ol%C3%A1,%20venho%20atrav%C3%A9s%20do%20site%20e%20preciso%20de%20informa%C3%A7%C3%B5es."><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/stenioveiculos?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://pt-br.facebook.com/people/Stenio-Veiculos/100054664110979/?ref=page_internal"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main id="main"> 
+        <section id="contato">
+          <div class="container-fluid" id="#appCep">
+            <div class="row justify-content-center">
+              <div class="col-md-12" id="caixa">
+                <div class="col-md-12 text-center">
+                  <h3 class="main-title" id="financeiro">Financiamento</h3>
+                </div>
+              </div>
+              <div class="col-md-6" id="caixa">
+                <form class="row justify-content-center" action="https://formsubmit.co/proferikmarques@gmail.com" method="POST">
+                  <!--Dados Residenciais-->
+                  <div class="col-md-12 text-start">
+                    <h3 class="main-title" id="comunicacao">Dados Pessoais</h3>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Nome:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite Seu Nome Completo" name="nome" required>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      E-mail:
+                    </label>
+                    <input type="email" class="form-control" placeholder="Digite seu e-mail" name="email" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      Data de Nascimento:
+                    </label>
+                    <input type="text" class="form-control" placeholder="00/00/0000" onkeypress="$(this).mask('00/00/0000')">
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      CPF:
+                    </label>
+                    <input type="text" class="form-control" placeholder="000.000.000-00" onkeypress="$(this).mask('000.000.000-00');" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      RG:
+                    </label>
+                    <input type="text" class="form-control" placeholder="00.000.000-00" onkeypress="$(this).mask('00.000.000-00');" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      Data de Emissão:
+                    </label>
+                    <input type="text" class="form-control" placeholder="00/00/0000" onkeypress="$(this).mask('00/00/0000')">
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Orgão Emissor:
+                    </label>
+                      <input type="text" class="form-control" placeholder="" name="sexo">
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Nacionalidade:
+                    </label>
+                    <input type="text" class="form-control" placeholder="" name="civil">
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Naturalidade:
+                    </label>
+                      <input type="text" class="form-control" placeholder="Estado" name="civil">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Sexo:
+                    </label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected disabled>Selecione...</option>
+                      <option value="1">Feminino</option>
+                      <option value="2">Masculino</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Estado Civil:
+                    </label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected disabled>Selecione...</option>
+                      <option value="1">Solteiro(a)</option>
+                      <option value="2">Casado(a)</option>
+                      <option value="3">Divorciado(a)</option>
+                      <option value="4">Viúvo(a)</option>
+                      <option value="6">Outros</option>
+                    </select>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Nome Do Pai:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite Nome o Completo" name="nome">
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Nome Da Mãe:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite Nome o Completo" name="nome">
+                  </div>
+                  <!--Dados Residenciais-->
+                  <div class="col-md-12 text-start">
+                    <h3 class="main-title" id="comunicacao">Dados Residenciais</h3>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Rua:
+                    </label>
+                    <input name="rua" type="text" id="rua" class="form-control" readonly disabled required/>
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      CEP:
+                    </label>
+                    <input name="cep" type="text" id="cep" class="form-control cep"  placeholder="00000-000" value="" onblur="pesquisacep(this.value)" required/>
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      Estado:
+                    </label>
+                    <input name="uf" type="text"  id="uf" class="form-control" readonly disabled required/>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Cidade:
+                    </label>
+                    <input name="cidade" type="text" id="cidade" class="form-control" readonly disabled required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Complemento:
+                    </label>
+                    <input type="text" name="complemento" id="complemento" class="form-control" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Bairro:
+                    </label>
+                    <input name="bairro" type="text" id="bairro" class="form-control" readonly disabled required />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="celular" class="form-label" id="campos">
+                      Telefone:
+                    </label>
+                    <input type="text" class="form-control" placeholder="(00) 0000-0000" onkeypress="$(this).mask('(00) 0000-0000')">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="celular" class="form-label" id="campos">
+                      Celular:
+                    </label>
+                    <input type="text" class="form-control" placeholder="(00) 9 0000-0000" onkeypress="$(this).mask('(00) 9 0000-0000')">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Tipo De Residência:
+                    </label>
+                    <input type="text" name="rua" id="rua" class="form-control">
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      Tempo De Residência:
+                    </label>
+                    <input type="text" name="rua" id="rua" class="form-control">
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label" id="campos">
+                      Número:
+                    </label>
+                    <input type="text" name="nnum" id="num" class="form-control">
+                  </div>
+                  <!--Dados Trabalhistas-->
+                  <div class="col-md-12 text-start">
+                    <h3 class="main-title" id="comunicacao">Dados Trabalhistas</h3>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Empresa:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite o Nome Completo da Empresa" name="empresa" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      CNPJ:
+                    </label>
+                    <input type="text" class="form-control" placeholder="00.000.000/0000-00" onkeypress="$(this).mask('00.000.000/0000-00')">
+                  </div>
+                  
+                  <div class="col-md-4">
+                    <label for="celular" class="form-label" id="campos">
+                      Telefone:
+                    </label>
+                    <input type="text" class="form-control" placeholder="(00) 0000-0000" onkeypress="$(this).mask('(00) 0000-0000')">
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Cargo:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite o Cargo" name="nome" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Setor:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite o Setor" name="nome" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Sálario:
+                    </label>
+                    <input type="text" class="form-control" placeholder="R$" onkeypress="$(this).mask('R$ 000.000,00')">
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Tempo de Serviço:
+                    </label>
+                    <input type="text" class="form-control" name="nome" required>
+                      </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Outras Fontes De Renda:
+                    </label>
+                    <input type="text" class="form-control" placeholder="" name="nome" required>
+                  </div>
+                  <!--Dados Do Veículo-->
+                  <div class="col-md-12 text-start">
+                    <h3 class="main-title" id="comunicacao">Dados Do Veículo</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Marca:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Ex: Fiat" name="email" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Modelo:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Ex: Uno" name="email" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Ano:
+                    </label>
+                    <input type="text" class="form-control" placeholder="0000" onkeypress="$(this).mask('0000')">
+                  </div>
+                  <!--Dados Dados Bancários-->
+                  <div class="col-md-12 text-start">
+                    <h3 class="main-title" id="comunicacao">Dados Bancários</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Banco:
+                    </label>
+                    <input type="text" class="form-control" name="email" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Agencia:
+                    </label>
+                    <input type="text" class="form-control" name="email" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label" id="campos">
+                      Conta:
+                    </label>
+                    <input type="text" class="form-control" onkeypress="$(this).mask('0000')">
+                  </div>
+                 <!--Fontes de Referências Pessoais-->
+                  <div class="col-md-12 text-start">
+                    <h3 class="main-title" id="comunicacao">Fontes de Referências Pessoais</h3>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Nome:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite o Nome Completo" name="nome">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Endereço:
+                    </label>
+                    <input type="text" class="form-control" placeholder="" name="nome">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="celular" class="form-label" id="campos">
+                      Telefone:
+                    </label>
+                    <input type="text" class="form-control" placeholder="(00) 0000-0000" onkeypress="$(this).mask('(00) 0000-0000')">
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label" id="campos">
+                      Nome:
+                    </label>
+                    <input type="text" class="form-control" placeholder="Digite o Nome Completo" name="nome">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" id="campos">
+                      Endereço:
+                    </label>
+                    <input type="text" class="form-control" placeholder="" name="nome">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="celular" class="form-label" id="campos">
+                      Telefone:
+                    </label>
+                    <input type="text" class="form-control" placeholder="(00) 0000-0000" onkeypress="$(this).mask('(00) 0000-0000')">
+                  </div>
+                  <div class="col-md-12 text-center align-middle" style="padding-top: 10px; ">
+                    <button id = "button" type="submit" class="btn bt-enviar">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="footer">
+          <footer>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12" id="footer1">
+                  <div class="container-fluid">
+                    <div class="row align-self-center">
+                      <div class="col-md-6 text-center align-self-center" id="footer11">
+                        <img src="./img/Sem título.png" class="logo_footer">
+                      </div>
+                      <div class="col-md-6 text-center align-self-center" id="footer12">
+                        
+                        <h4><i class="fa-solid fa-phone" id="footericone"></i>(75) 3623-3332</h4>
+                        <h4><i class="fa-brands fa-whatsapp" id="footericone"></i>(75) 99190-0001</h4>
+                        <h4><i class="fa-solid fa-location-dot" id="footericone"></i>Av. Maria Quitéria<br>3240 São João<br>Feira de Santana - BA</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+        <section id="footer2">
+          <footer>
+            <div class="container-fluid">
+              <div class="row  justify-content-center">
+                <div class="col-md-12 text-center align-self-center">
+                  <h3 class="main-title" id="footertext">Powered by</h3>
+                </div>
+              </div>
+              <div class="row  justify-content-center">
+                <div class="col-md-12">
+                  <div class="row " id="footer02">
+                    <div class="col-md-6 text-center align-self-center" id="">
+                      <img src="./img/download.png" class="logo_footer21">
+                    </div>
+                    <div class="col-md-6 text-center align-self-center">
+                      <img src="./img/webmotors-logo-1-1.png" class="logo_footer22">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+      </main>
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="_js/cep2.js"></script>
+  </body>
+</html>
+<script language="javascript">
+  $(document).ready(function(){
+    $('.cep').mask('00000-000');
+  });
+</script>
+
+</script>
